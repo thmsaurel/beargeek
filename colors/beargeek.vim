@@ -5,7 +5,7 @@
 " Created By        : Thomas Aurel
 " Creation Date     : January  2th, 2015
 " Version           : 0.1
-" Last Change       : January  2th, 2015 at 20:06:17
+" Last Change       : January  3th, 2015 at 09:19:08
 " Last Changed By   : Thomas Aurel
 "
 
@@ -81,8 +81,9 @@ highlight Function ctermfg=32
 highlight Statement cterm=bold ctermfg=220
 highlight Type ctermfg=40
 highlight PreProc ctermfg=1
+highlight Special ctermfg=190
+highlight Error cterm=bold ctermbg=9
 
-highlight Todo cterm=undercurl
 " Using special element
 " Cursor
 highlight Cursor ctermfg=14 cterm=bold
