@@ -5,7 +5,7 @@
 " Created By        : Thomas Aurel
 " Creation Date     : January  2th, 2015
 " Version           : 0.1
-" Last Change       : January  3th, 2015 at 09:19:08
+" Last Change       : February  2th, 2015 at 08:01:12
 " Last Changed By   : Thomas Aurel
 "
 
@@ -74,8 +74,10 @@ endif
 let color_name = "beargeek"
 
 " Using group-name
-highlight Normal ctermfg=15
+highlight Normal ctermfg=7
 highlight Comment ctermfg=245
+highlight Number ctermfg=110
+highlight String ctermfg=40
 highlight Identifier cterm=bold ctermfg=14
 highlight Function ctermfg=32
 highlight Statement cterm=bold ctermfg=220
@@ -93,18 +95,36 @@ highlight CursorLineNr ctermfg=81 ctermbg=235 cterm=bold
 
 " Columns
 highlight ColorColumn ctermbg=234
-highlight VertSplit ctermfg=81 ctermbg=234 cterm=bold
-highlight LineNr ctermfg=240 ctermbg=234
+highlight VertSplit ctermfg=81 ctermbg=240 cterm=bold
+highlight LineNr ctermfg=237 ctermbg=234
 
 " Folding
 highlight FoldColumn ctermbg=234 ctermfg=153
-highlight Folded ctermbg=237 ctermfg=153
+highlight Folded ctermbg=234 ctermfg=153
 
 " StatusLine
 highlight StatusLine ctermbg=234 ctermfg=81 cterm=NONE
-highlight StatusLineNC ctermbg=234 ctermfg=237 cterm=NONE
+highlight StatusLineNC ctermbg=232 ctermfg=237 cterm=NONE
 
 " Specific Characters
 highlight Directory ctermfg=77
 highlight NonText ctermfg=105
+
+" ####################
+" #   VIM-MARKDOWN   #
+" ####################
+highlight MarkdownTitle ctermfg=178 cterm=bold
+highlight MarkdownBlockquote ctermfg=104
+highlight MarkdownStrong ctermfg=208 cterm=bold
+highlight MarkdownItalic ctermfg=11
+highlight MarkdownItalicStrong ctermfg=208 cterm=italic
+highlight MarkdownOrderedList ctermfg=140
+highlight MarkdownClassicList ctermfg=110
+highlight MarkdownLinkTitle ctermfg=33
+highlight MarkdownURL ctermfg=75 cterm=underline
+highlight MarkdownURLTitle ctermfg=30
+highlight MarkdownEmail ctermfg=75 cterm=underline
+highlight MarkdownCode ctermfg=80
+highlight MarkdownCodeLine ctermfg=80
+highlight MarkdownAccent ctermfg=93
 
