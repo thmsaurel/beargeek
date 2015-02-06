@@ -5,7 +5,7 @@
 " Created By        : Thomas Aurel
 " Creation Date     : January  2th, 2015
 " Version           : 0.1
-" Last Change       : February  2th, 2015 at 08:01:12
+" Last Change       : February  6th, 2015 at 10:34:58
 " Last Changed By   : Thomas Aurel
 "
 
@@ -115,16 +115,23 @@ highlight NonText ctermfg=105
 " ####################
 highlight MarkdownTitle ctermfg=178 cterm=bold
 highlight MarkdownBlockquote ctermfg=104
+
 highlight MarkdownStrong ctermfg=208 cterm=bold
 highlight MarkdownItalic ctermfg=11
 highlight MarkdownItalicStrong ctermfg=208 cterm=italic
+
 highlight MarkdownOrderedList ctermfg=140
 highlight MarkdownClassicList ctermfg=110
+
 highlight MarkdownLinkTitle ctermfg=33
 highlight MarkdownURL ctermfg=75 cterm=underline
 highlight MarkdownURLTitle ctermfg=30
 highlight MarkdownEmail ctermfg=75 cterm=underline
+
+highlight MarkdownFile ctermfg=132
+
 highlight MarkdownCode ctermfg=80
 highlight MarkdownCodeLine ctermfg=80
+
 highlight MarkdownAccent ctermfg=93
 
