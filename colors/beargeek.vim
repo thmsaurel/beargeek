@@ -113,12 +113,15 @@ highlight NonText ctermfg=105
 " ####################
 " #   VIM-MARKDOWN   #
 " ####################
+
 highlight MarkdownTitle ctermfg=178 cterm=bold
 highlight MarkdownBlockquote ctermfg=104
 
-highlight MarkdownStrong ctermfg=208 cterm=bold
 highlight MarkdownItalic ctermfg=11
+highlight MarkdownStrong ctermfg=208 cterm=bold
 highlight MarkdownItalicStrong ctermfg=208 cterm=italic
+
+highlight MarkdownCode ctermfg=80
 
 highlight MarkdownOrderedList ctermfg=140
 highlight MarkdownClassicList ctermfg=110
@@ -129,9 +132,5 @@ highlight MarkdownURLTitle ctermfg=30
 highlight MarkdownEmail ctermfg=75 cterm=underline
 
 highlight MarkdownFile ctermfg=132
-
-highlight MarkdownCode ctermfg=80
-highlight MarkdownCodeLine ctermfg=80
-
 highlight MarkdownAccent ctermfg=93
 
