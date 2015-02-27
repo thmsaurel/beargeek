@@ -96,7 +96,7 @@ highlight CursorLineNr ctermfg=81 ctermbg=235 cterm=bold
 " Columns
 highlight ColorColumn ctermbg=234
 highlight VertSplit ctermfg=81 ctermbg=240 cterm=bold
-highlight LineNr ctermfg=237 ctermbg=234
+highlight LineNr ctermfg=239 ctermbg=234
 
 " Folding
 highlight FoldColumn ctermbg=234 ctermfg=153
@@ -123,8 +123,7 @@ highlight MarkdownItalicStrong ctermfg=208 cterm=italic
 
 highlight MarkdownCode ctermfg=80
 
-highlight MarkdownOrderedList ctermfg=140
-highlight MarkdownClassicList ctermfg=110
+highlight MarkdownList ctermfg=110
 
 highlight MarkdownLinkTitle ctermfg=33
 highlight MarkdownURL ctermfg=75 cterm=underline
