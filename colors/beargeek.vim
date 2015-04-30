@@ -84,7 +84,8 @@ highlight Statement cterm=bold ctermfg=220
 highlight Type ctermfg=40
 highlight PreProc ctermfg=1
 highlight Special ctermfg=190
-highlight Error cterm=bold ctermbg=9
+" highlight Error cterm=bold ctermbg=9 ctermfg=7
+highlight Error ctermbg=9 ctermfg=7
 
 " Using special element
 " Cursor
